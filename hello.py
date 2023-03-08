@@ -1,12 +1,5 @@
-def commit():
-    # TIMESTAMP=$(date +%c)
+import time
+while True:
     print("Hello World")
-    git pull
-    git add .
-    git commit -m "Auto update $TIMESTAMP"
-    git push origin master
+    time.sleep(1)
 
-while true :
-    commit()
-    sleep 60
-        
